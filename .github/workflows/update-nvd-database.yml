@@ -2,7 +2,7 @@ name: Update NVD Database
 
 on:
   schedule:
-    - cron: '0 2 * * 1'  
+    - cron: '0 0 12 ? * SAT *'  
   workflow_dispatch: 
 
 env:
